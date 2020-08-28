@@ -1,0 +1,15 @@
+.example-container {
+    width: 100%; text-align: center;
+    button {
+        background-color: #ffffff;
+        border: 1px solid #e0e0e0;
+        padding: 16px 8px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: ease .4s;
+        outline: none;
+    }
+    button:hover {
+        box-shadow: 0 2px 8px 0 #e0e0e0;
+    }
+}

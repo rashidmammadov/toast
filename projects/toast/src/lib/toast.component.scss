@@ -1,0 +1,40 @@
+.dg-toast { position: absolute; width: 320px; font-family: 'Calibri Light', sans-serif; z-index: 999; overflow: hidden; padding: 8px; }
+.tl { top: 8px; left: 8px; }
+.tr { top: 8px; right: 8px; }
+.bl { bottom: 8px; left: 8px; }
+.br { bottom: 8px; right: 8px; }
+.toast {
+    margin: 8px 0; width: auto;
+    box-shadow: 0 2px 8px -2px #555555;
+    border-radius: 8px;
+    padding: 8px 16px;
+    border-left: 16px solid transparent;
+    -webkit-animation-duration: .4s;
+    animation-duration: .4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.toast h1 { margin: 0 0 4px 0; font-size: 18px; animation-duration: .8s; animation-fill-mode: both; }
+.toast h3 { margin: 0; font-size: 14px; font-weight: 100; opacity: .8; }
+.toast span { margin: 4px 0 0 0; font-size: 14px; color: #303030; }
+.toast.success { border-color: darkolivegreen;  }
+.toast.warning { border-color: gold; }
+.toast.error { border-color: darkred; }
+.toast.success h1 { color: darkolivegreen; }
+.toast.warning h1 { color: gold; }
+.toast.error h1 { color: darkred; }
+
+.badge {
+    margin: 8px 0; width: auto;
+    box-shadow: 0 2px 8px -2px #555555;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 4px 16px;
+    border-left: 16px solid #555555;
+}
+
+.fadeInBottom { animation-name: fadeInBottom }
+@keyframes fadeInBottom {
+    from { opacity: 0; transform: translateY(100%); }
+    to { opacity: 1 }
+}
