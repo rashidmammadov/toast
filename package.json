@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "lib:build": "ng build toast --watch",
+    "lib:build": "ng build toast",
     "lib:pack": "cd dist/toast && npm pack"
   },
   "private": true,
