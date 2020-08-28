@@ -21,7 +21,7 @@ export class AppComponent {
 
     constructor() {}
 
-    async add() {
+    add() {
         this.data = {
             header: 'Example Header',
             subheader: Math.floor(Math.random() * 2) ? 'Example Subheader' : null,
