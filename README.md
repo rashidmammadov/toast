@@ -44,7 +44,7 @@ export class AppModule { }
 Paste **dg-toast** element to your template file with **message** attribute which is hold data from component:
 
 ```
-<dg-toast [message]="data" [position]="'bottom-right'" [max]="3" ></dg-toast>
+<dg-toast [message]="data" [position]="'bottom-right'" [max]="3"></dg-toast>
 ```
 
 | Name          | Type         | Necessity | Description |
